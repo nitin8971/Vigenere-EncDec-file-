@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vigenere Encryption/Decryption</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Vigenere Encryption/Decryption</h1>
+  </header>
+  
+  <section id="upload-section">
+    <h2>Upload and Encrypt</h2>
+    <input type="file" id="upload-file" />
+    <input type="text" id="secret-key" placeholder="Enter Secret Key" />
+    <button id="encrypt-button">Encrypt File</button>
+    <p id="encryption-message"></p>
+    <a href="#" id="download-link" download hidden>Download Encrypted File</a>
+  </section>
+
+  <section id="decrypt-section">
+    <h2>Decrypt</h2>
+    <input type="file" id="decrypt-file" />
+    <input type="text" id="decrypt-key" placeholder="Enter Secret Key" />
+    <button id="decrypt-button">Decrypt File</button>
+    <p id="decryption-message"></p>
+    <a href="#" id="download-decrypted-link" download hidden>Download Decrypted File</a>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
